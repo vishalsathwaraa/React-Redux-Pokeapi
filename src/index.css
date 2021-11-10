@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+table {
+  padding: 10px;
+}
+
+
+.error {
+  color: red !important;
+  margin: 10px 0 0 2px !important;
+}
+
+.ui.pointing.label,
+.ui[class*="pointing above"].label {
+  margin-top: 1em;
+  color: red;
+}
+
+.ui.modal>.content {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  line-height: 2.4 !important;
+  padding: 10px 20px !important;
+  background: #fff;
+}
+
+.ui.pink.button {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+}
+
+.ui.blue.button,
+.ui.red.button {
+  vertical-align: middle;
+}
+
+.ui.checkbox input.hidden+label {
+  cursor: pointer;
+  margin: 0 10px 0 0;
+  -webkit-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.ui.card>.image {
+
+  height: 250px !important;
+  background: #fff !important;
+}
+
+.ui.card>.image>img,
+.ui.cards>.card>.image>img {
+  display: block;
+  width: 100%;
+  height: 100% !important;
+  border-radius: inherit;
+}
+
+.card__image-container {
+  background-color: rgb(255 255 255) !important;
+  text-align: center;
+  height: 200px;
+  overflow: hidden;
+  width: initial;
+  padding: 1em 1em 0;
+  border-radius: 3px 3px 0 0;
+}
+
+@media (min-width: 760px) and (max-width: 995px) {
+  .ui.blue.button {
+    margin-bottom: 20px;
+  }
+}
